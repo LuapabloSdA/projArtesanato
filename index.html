@@ -4,28 +4,27 @@
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Artesanato</title>
+    <title>Mar Vermelho</title>
   </head>
   <body>
-
-    <!--Pagina Fixa, no caso a Navbar -->
+      <!--Pagina Fixa, no caso a Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success position-fixed col-12 m-auto" style="z-index: 999; ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger position-fixed col-12 m-auto" style="z-index: 999; ">
           <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" height="30px" width="30px">
-          <h1 style="color: white;" >Artesanato</h1>
+          <h1 style="color: white;" >Mar Vermelho</h1>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end " id="conteudoNavbarSuportado">
             <div class="nav-item my-2 my-lg-0 ">
-              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projInicial/">Inicial</a>
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projHistoria/">História</a>
             </div>
             <div class="nav-item my-2 my-lg-0">
-              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projHistoria/">História</a>
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projArtesanato/">Artesanato</a>
             </div>
             <div class="nav-item my-2 my-lg-0">
               <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projTurismo/">Turismo</a>
@@ -44,279 +43,101 @@
         </nav>
       </header>
       <br><br><br>
-      <hr color="greean"><br>
+      <hr color="red">
+      <br>
       <!-- Até aqui a Pagina Fixa-->
 
-      <!--Titulo-->
-      <h3 class="text-center col-11 m-auto">Artesanato em Mar Vermelho</h3>
-      <br><br><br>
-
-
-      <!--1 Card de 3-->
-      <div class="card-deck col-11 m-auto">
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167146973-80385e66-2bf1-4e84-948c-863dea581308.png" alt="Coche em Mar Vemelhor AL">
-          <p>Contato: </p>
+      <!--Carousel com as 3 Principais Fotos-->
+      <div id="carouselExampleIndicators" class="carousel slide col-9 m-auto" style="max-width: 480px ;" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active m-auto">
+            <img class="d-block w-100" src="https://user-images.githubusercontent.com/98188181/163401844-c6f616d6-0e3e-461c-86e2-b7eae2a5eb33.jpeg" alt="Primeiro Slide" height="300px" width="120px">
+          </div>
+          <div class="carousel-item m-auto">
+            <img class="d-block w-100" src="https://user-images.githubusercontent.com/98188181/163391914-5771bfde-b517-48b3-9a76-b2e87ae2def2.jpg" alt="Segundo Slide" height="300px" width="120px" >
+          </div>
+          <div class="carousel-item m-auto">
+            <img class="d-block w-100" src="https://user-images.githubusercontent.com/98188181/163400221-1ce5cf80-ca93-4077-b579-2286b7317978.jpeg" alt="Terceiro Slide" height="300px" width="120px">
+          </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167146847-03e43d2c-529a-493f-a7c2-27737e42188d.png" alt="Costura em Mar Vemelho AL">
-          <p>Contato: </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167147841-453cbd7a-a711-44d5-aef7-8130fc48056f.png" alt="Pintura em Mar Vemelho AL">
-          <p>Artesã: Help Artesanato
-          <br>
-          Instagram: @helpartesanato
-          <br>
-          WhatsApp: (82) 91862370</p>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
       </div>
-    <!--1 Card acabou-->
-    <br>
-      <!--2 Card de 3-->
-      <div class="card-deck col-11 m-auto">
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167158516-3d89ccc8-cef3-477c-a71a-f1ae0cb796c7.png" alt="Coche em Mar Vemelhor AL">
-          <p>Artesã: Finha
-          <br>
-          WhatsApp: (82) 93747844 </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/172394394-a14896d9-278f-41a3-a2cc-937af99c6702.jpg" alt="Costura em Mar Vemelho AL">
-          <p>Artesã: Poli 
-            <br>
-            WhatsApp: (82) 82171371
-          </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/172395013-8303cc91-1f77-44d8-8ba7-5bfd184b9ef7.jpg" alt="Pintura em Mar Vemelho AL">
-          <p>Artesã: Poli
-            <br>
-            WhatsApp: (82) 82171371</p>
-        </div>
-      </div>
-      <!--2 Card acabou-->
+      <br><br>
+      <!--Corousel acaba aqui-->
+
+      <!--Titulo e Texto, Sobre o Mar Vermelo-->
+      <h3 class="text-center">Mar Vermelho AL</h3>
       <br>
-      <!--3 Card de 3-->
-      <div class="card-deck col-11 m-auto">
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/172395888-b3d0efc1-97fd-4be4-b320-14336cea7cef.jpg" alt="Coche em Mar Vemelhor AL">
-          <p>Artesã: Cida
-            <br>
-            Instagram: @cidacrocher_
-            <br>
-            WhatsApp: (82) 991751877
-          </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/172395625-04cba01d-f084-41f0-bab4-d05f08530321.jpg" alt="Costura em Mar Vemelho AL">
-          <p>Artesã: Cida
-          <br>
-          Instagram: @cidacrocher_
-        <br>
-        WhatsApp: (82) 991751877 </p>
-        </div>
-        <div class="card">
-          <!-- falta aqui -->
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/171769998-16ac98a2-0207-4f55-803d-cd52072cc25a.jpg" alt="Pintura em Mar Vemelho AL">
-          <p>Artesã: Maria José
-            <br>
-            Instagram: @maria_jose694 
-            <br>
-            WhatsApp: (82) 91314456 </p>
-        </div>
-      </div>
-    <!--3 Card acabou-->
-    <br>
-    <!--3 Card de 3-->
-    <div class="card-deck col-11 m-auto">
-      <div class="card">
-        <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/172396978-e27828c5-3246-4e6b-965b-ec1a933ae77f.jpg" alt="Coche em Mar Vemelhor AL">
-        <p>Artesã: Luciana Farias
-        <br>
-        WhatsApp: (82) 991986916</p>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/171769904-ac36bf57-e7dc-4482-a0e9-ac8d1392b5f5.jpg" alt="Costura em Mar Vemelho AL">
-        <p>Artesã: Maria José
-          <br>
-          Instagram: @maria_jose694 
-          <br>
-          WhatsApp: (82)91314456 </p>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167159545-ae210056-d6e9-445f-87a2-0559fdedcd2d.png" alt="Pintura em Mar Vemelho AL">
-        <p>Artesã:
-        <br>
-        WhatsApp: </p>
-      </div>
-    </div>
-  <!--3 Card acabou-->
-  <br>
-    <!--3 Card de 3-->
-    <div class="card-deck col-11 m-auto">
-      <div class="card">
-        <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167159746-ed5c2f57-0cc2-48a8-9f00-a19c38c7ee9b.png" alt="Coche em Mar Vemelhor AL">
-        <p>Artesã: 
-          <br>
-          Instagram: 
-          <br>
-          WhatsApp: 
+      <p class="text-center col-11 m-auto">Localizada a 119 quilômetros de Maceió, Mar Vermelho,
+           essa pequena e aconchegante cidade da Zona da Mata, está a 636 metros acima do nível do 
+           mar. A origem do nome deriva de uma lagoa que tinha muitos pés de gravatá, que, no outono, 
+           soltava suas folhas vermelhas sobre as águas que com o vento forte, no alto da serra, 
+           formava pequenas marolas, e, então, as pessoas começaram a chamar a lagoa de mar vermelho.
+           <br><br>
+           A nossa maior especialidade, indiscutivelmente, é o clima frio. Esse fator climático 
+           de belas paisagens verdes serranas, a cultura, a culinária local, cachoeiras, o artesanato, 
+           praças com monumentos religiosos, igrejas, trilhas ecológicas e a receptividade de um 
+           povo amavel, e abrem precedentes para experiências inimagináveis nas esferas do setor 
+           turístico.
+           <br>
+            O ecoturismo ou turismo de aventura oportunizado em nosso território permite ao visitante o 
+            acesso a trilhas, escaladas, rapel, cavalgadas e passeios por semblantes majestosos.         
+            <br><br>
+            Atualmente, temos diversificadas opções de hospedagem que vão desde pousada de charme, 
+            estrategicamente situada na zona rural, com estruturas que não deixam a desejar em nada
+         de renomados espaços de estadia de grandes cidades à pousada que gera comodidade por sua 
+         localização privilegiada na região central do município com ambientes aconchegantes, sem 
+         deixar de passar pelo empreendimento do turismo rural, aquele em que donos de propriedades 
+         rurais abrem suas casas, fazendas e/ou alugam por temporadas para receberem turistas 
+         interessados em experiências no campo como: pescar, andar à cavalo, piscina, ter contato 
+         com animais e atividades rurais.
+         <br><br>
+            Nossa culinária é um ponto forte no atendimento dos gostos mais variados e refinados, tendo 
+            cardápios típicos da nossa região e opções de outras culturas brasileiras e estrangeiras.
+            O Festival de Inverno colocou Mar Vermelho entre as cidades que realiza um dos melhores 
+            festivais da região nordeste. Sucesso total. O evento, Festival de Inverno, já atraiu mais 
+            de 20 mil pessoas na pequenina cidade, reuniu grandes nomes da música brasileira e gera muita 
+            expectativa até a divulgação das atratividades de cada ano. 
+            <br><br>
+            Em nossas festividades podemos 
+            destacar também a emancipação política da cidade (25 de março), a tradicional festa da 
+            Barriguda, no dia de São Pedro (29 de junho), a festa da Padroeira Nossa Senhora da Conceição 
+            em novembro e o evento “Um Encanto de Natal”, em dezembro, com desfiles temáticos, apresentações 
+            musicais e destaque especial para a decoração das luzes natalinas. 
+            Uma infinidade de artistas exculpem, tecem ou produzem com as mãos, e a imaginação, 
+            peças extraordinárias e únicas em materiais como a madeira, fios de lã, licores, artefatos 
+            de decoração, alimentos e uma extensa variedade do setor do artesanato. 
         </p>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/172397116-3727e864-b19b-4ad9-9778-0cb365927ab1.jpg" alt="Costura em Mar Vemelho AL">
-        <p>Artesã: Luciana Farias
         <br>
-        WhatsApp: (82) 991986916  </p>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/171770056-0c84bc60-1247-4a20-89c8-ce16807a4821.jpg" alt="Pintura em Mar Vemelho AL">
-        <p>Artesã: Maria José
-          <br>
-          Instagram: @maria_jose694 
-          <br>
-          WhatsApp: (82) 91314456</p>
-      </div>
-    </div>
-  <!--3 Card acabou-->
-  <br>
-  <!--4 Card de 3-->
-  <div class="card-deck col-11 m-auto">
-    <div class="card">
-      <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167160136-51476736-3054-4d7e-9bd4-65cd4e7194db.png" alt="Coche em Mar Vemelhor AL">
-      <p>Artesã: Socorro Camassari
-      <br>
-      Instagram: @helpartesanato
-      <br>
-      WhatsApp: (82) 91862370</p>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167160226-72be19f1-ca70-4ee0-b4d4-42b753ab3aed.png" alt="Costura em Mar Vemelho AL">
-      <p>Artesã: Socorro Camassari
-      <br>
-      Instagram: @helpartesanato
-      <br>
-      WhatsApp: (82) 91862370</p>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167160326-4d9477fd-1061-45d9-a3b8-69f40cd8ed1a.png" alt="Pintura em Mar Vemelho AL">
-      <p>Artesã: Socorro Camassari
-      <br>
-      Instagram: @helpartesanato
-      <br>
-      WhatsApp: (82) 91862370</p>
-    </div>
-  </div>
-  <!--4 Card acabou-->
-  <br>
-  <!--5 Card de 3-->
-      <div class="card-deck col-11 m-auto">
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167160397-4c10d35e-c367-4ac2-971e-8c168314e9ef.png" alt="Coche em Mar Vemelhor AL">
-          <p>Artesã:
-          <br>
-          WhatsApp:</p>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167160623-61d80a38-58ab-47c8-a062-242d5734786c.png" alt="Costura em Mar Vemelho AL">
-          <p>Artesã:
-          <br>
-          WhatsApp:</p>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="https://user-images.githubusercontent.com/98188181/167160489-b5b7026a-f48c-4684-990e-5d657f322390.png" alt="Pintura em Mar Vemelho AL">
-          <p>Artesã: Finha
-            <br>
-            WhatsApp: (82) 93747844 </p>
-        </div>
-      </div>
-      <div class="card-deck col-11 m-auto">
-        <div class="card">
-          <img class="card-img-top"
-            src="https://user-images.githubusercontent.com/98188181/172396978-e27828c5-3246-4e6b-965b-ec1a933ae77f.jpg"
-            alt="Coche em Mar Vemelhor AL">
-          <p>Artesã: Luciana Farias
-            <br>
-            WhatsApp: (82) 991986916
-          </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top"
-            src="https://user-images.githubusercontent.com/98188181/171769904-ac36bf57-e7dc-4482-a0e9-ac8d1392b5f5.jpg"
-            alt="Costura em Mar Vemelho AL">
-          <p>Artesã: Maria José
-            <br>
-            Instagram: @maria_jose694
-            <br>
-            WhatsApp: (82)91314456
-          </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top"
-            src="https://user-images.githubusercontent.com/98188181/167159545-ae210056-d6e9-445f-87a2-0559fdedcd2d.png"
-            alt="Pintura em Mar Vemelho AL">
-          <p>Artesã:
-            <br>
-            WhatsApp:
-          </p>
-        </div>
-      </div>
-      <!--5 Card acabou-->
-      <br>
-      <!--6 Card de 3-->
-      <div class="card-deck col-11 m-auto">
-        <div class="card">
-          <img class="card-img-top"
-            src="https://user-images.githubusercontent.com/98188181/172395145-3a4fa4cc-7f5e-48f7-a9ea-babb95e958c1.jpg"
-            alt="Coche em Mar Vemelhor AL">
-          <p>Artesã: Poli
-            <br>
-            WhatsApp: (82)82171371
-          </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top"
-            src="https://user-images.githubusercontent.com/98188181/172397228-7a1b6336-462c-49d4-844f-1eee2438effe.jpg"
-            alt="Costura em Mar Vemelho AL">
-          <p>Artesã: Luciana Farias
-            <br>
-            WhatsApp: (82)991986916
-          </p>
-        </div>
-        <div class="card">
-          <img class="card-img-top"
-            src="#"
-            alt="Pintura em Mar Vemelho AL">
-          <p>Artesã: Maria José
-            <br>
-            Instagram: 
-            <br>
-            WhatsApp: 
-          </p>
-        </div>
-      </div>
-    <!--6 Card acabou-->
-
-    <br><br>
-    <hr color="greean">
-    <br>
-    <h4 class="text-center m-auto">Para informação, entre em contato apertando o simbolo do WhatsApp a baixo.</h4>
-    <br>
-    <a classe="text-center m-auto " href="https://contate.me/meusite">
-      <p class="text-center m-auto">
-      <img width="70px" height="70px" src="https://user-images.githubusercontent.com/98188181/171859916-c0899e5b-0747-4d70-8869-0dfc2ef93455.png">
-      </p>
-    </a>
-    <br><br><br><br><br>
-    
+        <br>
+        <h2 class="text-center col-12 m-auto">Venha conhecer Mar Vermelho e se encante!</h2>
+        <br>
+        <hr color="red">
+        <br>
+        <br>
+        <br>
+        <!--Aqui acaba Tudo, sobre o Texto e Titulo Falando de Mar Vermelho-->
 
 
 
 
-      
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+  </body>
 </html>
